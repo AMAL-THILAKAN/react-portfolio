@@ -1,5 +1,5 @@
 import React from 'react'
-import img from './assets/PIC04479-removebg-preview.png';
+// import img from './assets/logo.png';
 
 export default function Home() {
   return (
@@ -11,9 +11,7 @@ export default function Home() {
       <h2>Im a developer</h2>
     </div>
 
-    <div>
-      <img className='plimg' src={img} alt="image"/>
-    </div>
+    {/* <img src={img} alt="img" /> */}
     </>
   )
 }
